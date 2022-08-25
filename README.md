@@ -1,6 +1,12 @@
 ## 🃏 Olá, meu nome é <strong>Matheus!</strong>
 
-> Sou homem.
+```javascript
+function Armindo() {
+ const name = "Matheus Armindo"
+ 
+ let languages = ["HTML5", "CSS3", "JavaScript", "NodeJS", "C#", "MySQL"]
+}
+```
 
 🔭 Estou desenvolvendo uma API de controle de vendas com NodeJS + Express e Sequelize.
 
@@ -12,12 +18,12 @@
 <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS"/></code>
 <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript"/></code>
 <code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" alt="Typescript"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="Nodejs"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" alt="MySQL"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Nodejs"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL"/></code>
 
 ---
 
-## ⭐ Informações sobre minha conta GitHub
+## ⭐ Status do GitHub
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=armindomatheus&show_icons=true&theme=github_dark)
 
 ## 📱 Contatos
