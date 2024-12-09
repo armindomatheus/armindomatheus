@@ -13,7 +13,7 @@ void Matheus() {
 }
 ```
 
-🔭 Estou desenvolvendo uma API de controle de vendas com NodeJS + Express e Sequelize.
+🔭 Desenvolvedor Mobile em Flutter e entusiasta de estrutura de dados
 
 ----
 
