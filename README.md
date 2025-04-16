@@ -22,13 +22,13 @@ class Dev extends Pessoa {
   }
 }
 
-  const matheus = new Dev(
-    "Matheus Armindo Barbosa",
-    20,
-    ["Bootstrap", "TypeScript", "Node.JS", "Sequelize", "Nest.JS", "Prisma", "PostgreSQL", "Dart", "Flutter", "MySQL", "Docker"],
-    2
-  );
-  console.log(matheus);
+const matheus = new Dev(
+  "Matheus Armindo Barbosa",
+  20,
+  ["Bootstrap", "TypeScript", "Node.JS", "Sequelize", "Nest.JS", "Prisma", "PostgreSQL", "Dart", "Flutter", "MySQL", "Docker"],
+  2
+);
+console.log(matheus);
 }
 ```
 
