@@ -1,32 +1,55 @@
 ## 🃏 Olá, meu nome é <strong>Matheus!</strong>
 
-```dart
+```TypeScript
 class Pessoa {
-  String name = "";
-  int idade = 0;
-  List<String> laguages = [];
+  name: string;
+  idade: number;
 
-  Pessoa({required this.name,required this.idade,required this.languages})
+  constructor(name: string, age: number, knowledges: string[]) {
+    this.name = name;
+    this.age = idade;
+  }
 }
-void Matheus() {
- Pessoa matheus = Pessoa(name: "Matheus Armindo", idade: 19, languages: ["HTML5","CSS","JS","TS","Node.JS","C#","MySQL","Dart","Flutter"])
+
+class Dev extends Pessoa {
+  knowledges: string[];
+  experienceInYears: number;
+
+  constructor(name: string, idade: number, knowledges: string[], experienceInYears: number) {
+    super(name, age);
+    this.knowledges = knowledges;
+    this.experienceInYears = experienceInYears;
+  }
+}
+
+  const matheus = new Dev(
+    "Matheus Armindo Barbosa",
+    20,
+    ["Bootstrap", "TypeScript", "Node.JS", "Sequelize", "Nest.JS", "Prisma", "PostgreSQL", "Dart", "Flutter", "MySQL", "Docker"],
+    2
+  );
+  console.log(matheus);
 }
 ```
 
-🔭 Desenvolvedor Mobile em Flutter e entusiasta de estrutura de dados
+🔭 Desenvolvedor Back-End com NodeJS e Mobile com Flutter
 
 ----
 
 ## 🚀 Me aprimorando
 
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" alt="HTML5"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" alt="Javascript"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" alt="Typescript"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Nodejs"/></code>
-<code><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL"/></code>
+
+<code><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="Typescript"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.JS"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nestjs/nestjs-original.svg" alt="Nest.JS"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/prisma/prisma-original.svg" alt="Prisma"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="PostgreSQL"/></code>
 <code><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dart/dart-original.svg" alt="dart"/></code>
 <code><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg" alt="Flutter"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL"/></code>
+<code><img height="32" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker"/></code>
+
 
 ## 📱 Contato
 <a href="https://www.linkedin.com/in/matheus-armindo-47138a224/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
