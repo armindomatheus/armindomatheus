@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Protótipo Mobile - ClickAtende</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="screens">
+      <section class="screen">
+        <header class="screen__header">
+          <span class="screen__badge">01</span>
+          <h1>Login</h1>
+          <p>Gestor Web em versão mobile.</p>
+        </header>
+
+        <div class="login">
+          <div class="login__hero">
+            <div class="login__logo">CA</div>
+            <h2>ClickAtende</h2>
+            <span>Bem-vindo</span>
+          </div>
+
+          <form class="login__form">
+            <label>
+              Usuário
+              <input type="text" placeholder="Digite seu usuário..." />
+            </label>
+            <label>
+              Senha
+              <input type="password" placeholder="Digite sua senha..." />
+            </label>
+            <label class="checkbox">
+              <input type="checkbox" />
+              Lembrar-me
+            </label>
+            <button type="button">Entrar</button>
+            <a href="#">Esqueci minha senha</a>
+          </form>
+        </div>
+      </section>
+
+      <section class="screen">
+        <header class="screen__header">
+          <span class="screen__badge">02</span>
+          <h1>Home</h1>
+          <p>Resumo diário para tomada de decisão rápida.</p>
+        </header>
+
+        <div class="topbar">
+          <div>
+            <strong>Gestor Web</strong>
+            <span>Olá, Matheus</span>
+          </div>
+          <button class="support">Suporte</button>
+        </div>
+
+        <div class="metrics">
+          <article>
+            <span>Faturamento Hoje</span>
+            <h3>R$ 2.000,00</h3>
+            <small>vs ontem +4%</small>
+          </article>
+          <article>
+            <span>Últimos 7 dias</span>
+            <h3>R$ 14.000,00</h3>
+            <small>Média/Dia R$ 2.000,00</small>
+          </article>
+          <article>
+            <span>Últimos 30 dias</span>
+            <h3>R$ 60.000,00</h3>
+            <small>Média/Semana R$ 14.000,00</small>
+          </article>
+          <article>
+            <span>Ticket Médio</span>
+            <h3>R$ 200,00</h3>
+            <small>Período 7 dias</small>
+          </article>
+        </div>
+
+        <div class="chart">
+          <div class="chart__header">
+            <div>
+              <strong>Faturamento por Dia</strong>
+              <span>Visão rápida de tendência</span>
+            </div>
+            <button>Ver indicadores</button>
+          </div>
+          <div class="chart__bars">
+            <div style="height: 80%">Seg</div>
+            <div style="height: 55%">Ter</div>
+            <div style="height: 70%">Qua</div>
+            <div style="height: 45%">Qui</div>
+            <div style="height: 35%">Sex</div>
+            <div style="height: 60%">Sáb</div>
+            <div style="height: 50%">Dom</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen">
+        <header class="screen__header">
+          <span class="screen__badge">03</span>
+          <h1>Caixas</h1>
+          <p>Filtros rápidos para operação e auditoria.</p>
+        </header>
+
+        <div class="topbar">
+          <div>
+            <strong>Caixas</strong>
+            <span>Home / Caixas</span>
+          </div>
+          <button class="support">Suporte</button>
+        </div>
+
+        <div class="filters">
+          <button>Empresa</button>
+          <button>Filial</button>
+          <button>17/08/2025</button>
+          <button>Até 17/08/2025</button>
+          <button>Pesquisar...</button>
+        </div>
+
+        <div class="table">
+          <div class="table__header">
+            <span>ID</span>
+            <span>Empresa</span>
+            <span>Filial</span>
+            <span>Data</span>
+            <span>Usuário</span>
+            <span>Fat.</span>
+          </div>
+          <div class="table__row">
+            <span>1</span>
+            <span>ClickAtende</span>
+            <span>Matriz</span>
+            <span>26/01 10:00</span>
+            <span>Admin</span>
+            <span>R$ 2.000,00</span>
+          </div>
+          <div class="table__row">
+            <span>2</span>
+            <span>ClickAtende</span>
+            <span>Matriz</span>
+            <span>26/01 12:00</span>
+            <span>Admin</span>
+            <span>R$ 2.350,00</span>
+          </div>
+          <div class="table__row">
+            <span>3</span>
+            <span>ClickAtende</span>
+            <span>Matriz</span>
+            <span>26/01 14:00</span>
+            <span>Admin</span>
+            <span>R$ 1.980,00</span>
+          </div>
+          <div class="table__row">
+            <span>4</span>
+            <span>ClickAtende</span>
+            <span>Matriz</span>
+            <span>26/01 16:00</span>
+            <span>Admin</span>
+            <span>R$ 2.780,00</span>
+          </div>
+          <button class="filter-action">Filtrar Caixas</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
