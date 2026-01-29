@@ -56,6 +56,3 @@ console.log(matheus);
 
 ## 📱 Contato
 <a href="https://www.linkedin.com/in/armindomatheus/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-
-## 📲 Protótipo Mobile
-Confira o protótipo das telas em `prototype/index.html`.
